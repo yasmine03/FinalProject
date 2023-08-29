@@ -1,0 +1,161 @@
+*{
+margin: 0;
+padding: 0;
+top: 0;
+box-sizing: border-box;
+}
+li{
+    list-style-type: none;
+
+}
+header, main, footer{
+    padding-left:6rem ;
+    padding-right: 6rem;
+}
+a{
+ text-decoration: none;
+}
+
+body{
+    background-color:rgb(251, 253, 255);
+}
+
+.navbar{
+    display: flex;
+    margin: 0.4rem;
+}
+.navbar-logo{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.navbar-logo img{
+    width: 80px;
+}
+.navbar-links{
+
+    width:40% ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar-links ul{
+    display: flex;
+    
+}
+.navbar-links ul li{
+    margin-left: 4rem;
+}
+
+.navbar-links ul li a{
+    color: black;
+    font-size: 20px;
+}
+
+
+.navbar-button{
+
+    width:30% ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+
+}
+.btn{
+    background-color: green;
+    color: white;
+    padding: 0.75rem;
+    border-top-left-radius:10px;
+    border-bottom-right-radius:10px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.368);
+
+
+}
+.banner{
+    display: flex;
+    height: 700px;
+    padding-top: 5rem;
+    padding-left: 6rem;
+    padding-right: 6rem;
+    justify-content: center;
+}
+
+
+.banner-text{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.banner-text h1 {
+    font-size: 4rem;
+    font-family: 'Acme', sans-serif;
+
+}
+.orange{
+    color:red;
+}
+.banner-text p{
+    font-size: 1.6rem;
+    padding-bottom: 3rem;
+    padding-top: 2rem;
+    
+    font-family: 'Domine', serif;
+    font-family: 'Playfair Display', serif;
+}
+
+.banner-button{
+display: flex;
+
+}
+.banner-button a{
+    margin-left: 2rem;
+    margin-right: ;
+}
+
+
+
+.banner-image{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.banner-image img{
+    width: 60%;
+    height: 100%;
+    object-fit: cover;
+    border-top-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+}
+
+.banner-image .rounded{
+    width: 30%;
+    display: flex;
+    align-items: start;
+}
+.banner-image .rounded img {
+    width: 200px;
+    height: 100%;
+    border-radius: 100%;
+    z-index: 10;
+    margin-top: 400px;
+    margin-right:300px ;
+}
+
+
+
+
+
+
+
+
