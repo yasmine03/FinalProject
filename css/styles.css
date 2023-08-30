@@ -506,3 +506,62 @@ header{
         background-color: var(--primary-color);
     }
 }
+
+
+@media screen and (max-width: 700px){
+
+    header, main, section, footer{
+        padding-left: 0rem;
+        padding-right: 0rem;
+    }
+
+    .navbar-logo{
+        width: 100%;
+    }
+
+    .navbar-links{
+        top: -500%;
+        position: absolute;
+        right: 0;
+        left: 0;
+    }
+
+    .navbar-button{
+        top: -500%;
+        position: absolute;
+        right: 0;
+        left: 0;
+    }
+
+    .banner{
+        display: flex;
+        width: 100%;
+        padding-top: 0;
+        padding-left: 0rem;
+        padding-right: 0rem;
+        height: 500px;
+    }
+
+    .banner .banner-text{
+        width: 50%;
+        & h1{
+            font-size: 25px;
+        }
+    }
+
+    .banner .banner-image{
+        width: 50%;
+        & img{
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+    .banner .banner-image .rounded{
+        & img{
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+}
