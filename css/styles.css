@@ -6,7 +6,8 @@
 }
 
 :root{
-    --primary-color: rgb(244, 74, 18);
+    --primary-color: rgb(255, 75, 3);
+
 }
 
 *::selection{
